@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<title>Il caso Moro: memorie e narrazioni</title>
+
+		<!--Bootstrap CSS-->
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+
+		<!--collegamento al CSS-->
+		<link rel="stylesheet" href="style.css"/>
+
+		<!--Bootstrap Icons-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+		<meta charset="UTF-8"/>
+		<meta name="keywords" content="Aldo Moro, letteratura anni di piombo, terrorismo italiano, cronaca italiana, storia, Caso Moro, memoria"/>
+		<meta name="description" content="Risorsa web che raccoglie oggetti culturali di diversa tipologia, tutti legati al caso Moro e distinguibili in due categorie principali: memorie che testimoniano l'evento e narrazioni successivamente prodotte su questa, tanto terribile quanto importante, pagina della storia italiana."/>
+		<meta name="author" content="Lorenza Gallo"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	</head>
+
+	<body>
+		<header>
+			<h1 id="top">Il caso Moro: memorie e narrazioni</h1>
+			<section>
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			      <a class="navbar-brand" href="#"></a>
+				   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				   <span class="navbar-toggler-icon"></span>
+				   </button>
+
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item">
+				        <a class="nav-link" href="index.htm">Home</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="caso.htm" target="_blank">Il caso</a>
+				      </li>
+				      <li class="nav-item dropdown active">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Memorie e narrazioni
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">Lista<span class="sr-only">(current)</span></a>
+				          <div class="dropdown-divider"></div>
+				          <a class="dropdown-item" href="#">Memorie</a>
+				          <a class="dropdown-item" href="#">Narrazioni</a>
+				        </div>
+				      </li>
+				      <li class="nav-item">
+                        <a class="nav-link" href="#">|</a>
+                      </li>
+				  	  <li class="nav-item">
+				        <a class="nav-link" href="caso.htm" target="_blank">Persone</a>
+				      </li>	
+				    </ul>
+				    <form class="form-inline my-2 my-lg-0">
+				      <input class="form-control mr-sm-2" type="search" placeholder="Scrivi qui" aria-label="Scrivi qui">
+				      <button type="button" class="btn btn-outline-danger">Cerca</button>
+				    </form>
+				  </div>
+				</nav>
+			</section>	
+		</header>
+
+		<section class="container-fluid">
+				<h2 class="text-center mt-2">Lista</h2>
+				<div class="row">
+					<!--FILTRI-->
+					<div class="col-md-2 col-sm-2 col-xs-12 mt-4">
+                    <aside>
+                    	<!--ORDINA LA LISTA-->	
+						<div class="checkbox-container">
+		                    <h3 class="mb-0">Ordina la lista:</h3>
+		                    <div class="btn-group-toggle" data-toggle="buttons">
+		                        <label class="btn btn-outline-dark active mt-1">
+		                            <input type="radio"> A-Z
+		                        </label>
+		                        <label class="btn btn-outline-dark mt-1">
+		                            <input type="radio"> Z-A
+		                        </label>
+		                        <label class="btn btn-outline-dark mt-1">
+		                            <input type="radio"> Ordine cronologico
+		                        </label>
+		                    </div>
+		                </div>	
+		                <!--FILTRA LA LISTA-->
+		                <div class="checkbox-container">
+		                	<h3 class="mt-3">Filtra la lista:</h3>
+		                	<div class="btn-group-toggle" data-toggle="buttons">
+							  <label class="btn btn-dark btn-block mt-1">
+		                            <input type="radio"> Memorie
+		                        </label>
+		                        <label class="btn btn-dark btn-block mt-1">
+		                            <input type="radio"> Narrazioni
+		                       </label>
+							</div>	
+		                <!--FILTRA LA LISTA PER TIPOLOGIA DI ITEM-->	
+			                <div class="btn-group btn-block dropright mt-1">
+							  <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    Tipologie
+							  </button>
+							  <div class="dropdown-menu p-3">
+							    <div class="form-check">
+								  <label class="form-check-label">
+								    <input type="checkbox" class="form-check-input" value=""><i class="bi bi-book"></i>
+								  </label>
+								</div>
+								<div class="form-check">
+								  <label class="form-check-label">
+								    <input type="checkbox" class="form-check-input" value=""><i class="bi bi-camera"></i>
+								  </label>
+								</div>
+								<div class="form-check">
+								  <label class="form-check-label">
+								    <input type="checkbox" class="form-check-input" value=""><i class="bi bi-film"></i>
+								  </label>
+								</div>
+								<div class="form-check">
+								  <label class="form-check-label">
+								    <input type="checkbox" class="form-check-input" value=""><i class="bi bi-camera-reels"></i>
+								  </label>
+								</div>
+								<div class="form-check">
+								  <label class="form-check-label">
+								    <input type="checkbox" class="form-check-input" value=""><i class="bi bi-file-text"></i>
+								  </label>
+								</div>
+								<div class="form-check">
+								  <label class="form-check-label">
+								    <input type="checkbox" class="form-check-input" value=""><i class="bi bi-mic"></i>
+								  </label>
+								</div>
+								 <button type="button" class="btn btn-dark mt-2">Filtra</button>
+							  </div>
+							</div>
+		            	</div>
+		            </aside>
+		        	</div>
+		        	<!--CARDS-->
+		        	<div class="col-md-9 col-sm-9 col-xs-12">
+		        		<div class="row" id="cards">
+		        			<div class="col-md-12">
+
+		        				<!--PRIMA RIGA-->
+		        				<div class="row">
+
+		        					<!--PRIMO ITEM-->
+		        					<div class="col-md-4 mt-4">
+					        			<div class="card card-item">
+					        				<span class="ml-2 mt-2 p-2"><a href="#" target="_blank"
+                                        	title="Vedi tutti i libri del catalogo"><i class="bi bi-book"></i></a></span>
+										  <img src="immagini/affaire-moro.jpg" class="card-img-top" alt="L'Affaire Moro" height="400px">
+										  <div class="card-body">
+										    <h4 class="card-title">L'affaire Moro</h4>
+										    <p class="card-text">Autore: <b><a href="http://viaf.org/viaf/29540540" target="_blank" title="Identificativo VIAF di Sciascia, Leonardo">Sciascia, Leonardo.<sup>VIAF</sup></a></b><br>
+										    Data: 1994.<br>
+											Pubblicazione: <a href="https://it.wikipedia.org/wiki/Adelphi" target="_blank" title="Pagina Wikipedia casa editrice Adelphi">Adelphi, Milano<sup>Wikipedia</sup></a>.</p>
+										    <a href="item.htm" class="btn btn-danger">Tutti i metadati</a>
+										  </div>
+										</div>
+					        		</div>
+
+					        		<!--SECONDO ITEM-->
+					        		<div class="col-md-4 mt-4">
+					        			<div class="card card-item">
+					        				<span class="ml-2 mt-2 p-2"><a href="#" target="_blank"
+                                        	title="Vedi tutte le foto del catalogo"><i class="bi bi-camera"></i></a></span>
+										  <img src="immagini/renault.jpg" class="card-img-top" alt="La Renault 4 in cui è stato trovato il cadavere di Moro il 9 maggio 1978" height="400px">
+										  <div class="card-body">
+										    <h4 class="card-title">La Renault 4 in cui è stato trovato il corpo di Moro</h4>
+										    <p class="card-text">Fondo: <b>Masterphoto.</b><br>
+												   Data: 1978.<br>
+												   Istituzione fornitrice: <a href="https://it.wikipedia.org/wiki/Istituto_Luce_Cinecitt%C3%A0" target="_blank" title="Pagina Wikipedia Istituto Luce">Istituto Luce - Cinecittà, Roma<sup>Wikipedia</sup></a>. </p>
+										    <a href="#" class="btn btn-danger">Tutti i metadati</a>
+										  </div>
+										</div>
+					        		</div>
+
+					        		<!--TERZO ITEM-->
+					     			<div class="col-md-4 mt-4">
+					     				<div class="card card-item">
+					     					<span class="ml-2 mt-2 p-2"><a href="#" target="_blank"
+                                        	title="Vedi tutti i film del catalogo"><i class="bi bi-film"></i></a></span>
+										  <img src="immagini/buongiorno-notte.jpg" class="card-img-top" alt="Buongiorno, notte" height="400px">
+										  <div class="card-body">
+										    <h4 class="card-title">Buongiorno, notte</h4>
+										    <p class="card-text">Regista: <b><a href="http://viaf.org/viaf/110292071" target="_blank" title="Identificativo VIAF di Bellocchio, Marco">Bellocchio, Marco.<sup>VIAF</sup></a></b> <br>
+										    Data: 2011.<br>
+											Pubblicazione: <a href="https://it.wikipedia.org/wiki/01_Distribution" target="_blank" title="01 Distribution">01 Distribution, Roma<sup>Wikipedia</sup></a>.</p>
+										    <a href="#" class="btn btn-danger">Tutti i metadati</a>
+										  </div>
+										</div>
+					        		</div>
+
+					        	</div>
+					         
+							    <!--SECONDA RIGA-->  	
+							    <div class="row">
+
+				        			<!--PRIMO ITEM-->
+				        			<div class="col-md-4 mt-4">
+							        	<div class="card card-item riga2">
+							        		<span class="ml-2 mt-2 p-2"><a href="#" target="_blank"
+                                        	title="Vedi tutti i video del catalogo"><i class="bi bi-camera-reels"></i></a></span>
+										  <img src="immagini/via-fani.jpg" class="card-img-top" alt="Il sequestro di Aldo Moro in via Fani" height="200px">
+										  <div class="card-body">
+											   <h4 class="card-title">Dopo la strage di via Fani e il rapimento di Aldo Moro</h4>
+											   <p class="card-text">Codice identificativo: <b>NC049101.</b><br>
+											   	Serie: N0491. <br>
+											   	Data: marzo 1978.<br>
+											   	Istituzione fornitrice: <a href="https://it.wikipedia.org/wiki/Istituto_Luce_Cinecitt%C3%A0" target="_blank" title="Pagina Wikipedia Istituto Luce">Istituto Luce - Cinecittà, Roma<sup>Wikipedia</sup></a>.
+											   </p>
+											   <a href="#" class="btn btn-danger">Tutti i metadati</a>
+										  </div>
+										</div>
+							        </div>
+
+							        <!--SECONDO ITEM-->
+							        <div class="col-md-4 mt-4">
+							        	<div class="card card-item riga2">
+							        			<span class="ml-2 mt-2 p-2"><a href="#" target="_blank"
+                                        		title="Vedi tutte i testi del catalogo"><i class="bi bi-file-text"></i></a></span>
+										  	 <img src="immagini/carteggio-moro-frammento.jpg" class="card-img-top" alt="Frammento di lettera del carteggio di Moro alla famiglia" height="200px">
+										  	 <div class="card-body">
+										    	<h4 class="card-title">Carteggio di solidarietà - 55 giorni </h4>
+												   <p class="card-text">Autore: <b><a href="http://viaf.org/viaf/73876435">Moro, Aldo<sup>VIAF</sup></a></b>.<br>
+												   	Data: 16 marzo 1978 - 9 maggio 1978.<br>
+												   	Istituzione fornitrice: <a href="http://www.archivioflamigni.org/" target="_blank" title="Pagina dell'Archivio Flamigni">Centro documentazione Archivio Flamigni<sup></sup></a>.
+												   </p>
+												   <a href="#" class="btn btn-danger">Tutti i metadati</a>
+											 </div>
+										</div>
+							        </div>
+
+							        <!--TERZO ITEM-->
+							     	<div class="col-md-4 mt-4">
+							     		<div class="card card-item riga2">
+							     				<span class="ml-2 mt-2 p-2"><a href="#" target="_blank"
+                                        		title="Vedi tutte le registrazioni del catalogo"><i class="bi bi-mic"></i></a></span>
+											  <img src="immagini/raiteche-telefonata.jpg" class="card-img-top" alt="La telefonata delle BR a Francesco Tritto con l'annuncio dell'uccisione" height="200px">
+											  <div class="card-body">
+												   <h4 class="card-title">La telefonata delle BR a Francesco Tritto con l'annuncio dell'uccisione di Moro</h4>
+												   <p class="card-text">Programma: <b>Giornale Radio 2.</b><br>
+												   	Data: 1 luglio 1978.<br>
+												   	Istituzione fornitrice: <a href="https://it.wikipedia.org/wiki/Rai_Teche" target="_blank" title="Pagina dell'archivio di Rai Teche">Rai Teche<sup>Wikipedia</sup>.</a>
+												   </p>
+												   <a href="#" class="btn btn-danger">Tutti i metadati</a>
+											  </div>
+										</div>
+							        </div>
+							        
+							    </div>	
+
+							    <!--TERZA RIGA-->
+							    <div class="row">
+
+		        					<!--PRIMO ITEM-->
+		        					<div class="col-md-4 mt-4">
+					        			<div class="card card-item">
+					        				<span class="ml-2 mt-2 p-2"><a href="#" target="_blank"
+                                        	title="Vedi tutti i film del catalogo"><i class="bi bi-film"></i></a></span>
+										  <img src="immagini/il-caso-moro-film.jpg" class="card-img-top" alt="Il caso Moro" height="400px">
+										  <div class="card-body">
+										    <h4 class="card-title">Il caso Moro</h4>
+										    <p class="card-text">Regista: <b><a href="http://viaf.org/viaf/90142558" target="_blank" title="Identificativo VIAF di Ferrara, Giuseppe">Ferrara, Giuseppe.<sup>VIAF</sup></a></b><br>
+										    Data: 1986.<br>
+										    Pubblicazione: <a href="https://it.wikipedia.org/wiki/Il_Messaggero" target="_blank" title="Pagina Wikipedia Il Messaggero">Il Messaggero, Roma<sup>Wikipedia</sup>.</a>	
+										    </p>
+										    <a href="#" class="btn btn-danger">Tutti i metadati</a>
+										  </div>
+										</div>
+					        		</div>
+
+					        		<!--SECONDO ITEM-->
+					        		<div class="col-md-4 mt-4">
+					        			<div class="card card-item">
+					        				<span class="ml-2 mt-2 p-2"><a href="#" target="_blank"
+                                        		title="Vedi tutti i testi del catalogo"><i class="bi bi-file-text"></i></a></span>
+											  <img src="immagini/lettere-moro-disivo.png" class="card-img-top" alt="Le lettere di Aldo Moro. Dalla prigionia alla storia" height="400px">
+											  <div class="card-body">
+												   <h4 class="card-title">Le lettere di Aldo Moro. Dalla prigionia alla storia</h4>
+										    		<p class="card-text">Curatore: <b><a href="http://viaf.org/viaf/90315105" target="_blank" title="Identificativo VIAF di Di Sivo, Michele">Di Sivo, Michele.<sup>VIAF</sup></a></b><br>
+										    		Data: 2013.<br>
+										    		Istituzione fornitrice: <a href="https://it.wikipedia.org/wiki/Archivio_di_Stato_di_Roma" target="_blank" title="Pagina Wikipedia dell'Archivio di Stato di Roma">Archivio di Stato, Roma<sup>Wikipedia</sup></a>.</p>
+										    		<a href="#" class="btn btn-danger">Tutti i metadati</a>
+										  	  </div>
+										</div>
+					        		</div>
+
+					        		<!--TERZO ITEM-->
+					     			<div class="col-md-4 mt-4">
+					     				<div class="card card-item">
+					     					<span class="ml-2 mt-2 p-2"><a href="#" target="_blank"
+                                        	title="Vedi tutti i libri del catalogo"><i class="bi bi-book"></i></a></span>
+										  <img src="immagini/todo-modo-sciascia.jpg" class="card-img-top" alt="Todo Modo" height="400px">
+										  <div class="card-body">
+										    <h4 class="card-title">Todo Modo</h4>
+										    <p class="card-text">Autore: <b><a href="http://viaf.org/viaf/29540540" target="_blank" title="Identificativo VIAF di Sciascia, Leonardo">Sciascia, Leonardo.<sup>VIAF</sup></a></b><br>
+										    Data: 1995.<br>
+										    Pubblicazione: <a href="https://it.wikipedia.org/wiki/Adelphi" target="_blank" title="Pagina Wikipedia casa editrice Adelphi">Adelphi, Milano<sup>Wikipedia</sup></a>.	
+										    </p>
+										    <a href="#" class="btn btn-danger">Tutti i metadati</a>
+										  </div>
+										</div>
+					        		</div>
+
+					        	</div>
+
+							</div>
+						</div>	    	
+			        	
+
+						<!--pagination-->
+				        <div class="row">
+	                        <div class="col-md-12 mt-4">
+						        <nav>
+								  <ul class="pagination justify-content-center">
+								    <li class="page-item disabled">
+								      <a class="page-link" href="#" tabindex="-1" aria-disabled="true" title="Indietro">
+								        <span aria-hidden="true">&laquo;</span>
+								      </a>
+								    </li>
+								    <li class="page-item active"><a class="page-link bg-danger text-white" href="#" title="Pagina 1">1</a></li>
+								    <li class="page-item"><a class="page-link" href="#" title="Pagina 2">2</a></li>
+								    <li class="page-item"><a class="page-link" href="#" title="Pagina 3">3</a></li>
+								    <li class="page-item">
+								      <a class="page-link" href="#" title="Avanti">
+								        <span aria-hidden="true">&raquo;</span>
+								      </a>
+								    </li>
+								  </ul>
+								</nav>
+							</div>
+						</div>	
+
+					</div>		
+
+		        	<!--VUOTO-->
+		        	<div class="col-md-1 col-sm-1 col-xs-12 mt-3">
+		        	<aside>
+                        <div>
+                            <a href="index.htm#strumenti" class="link" title="Guida"><i class="bi bi-question-circle-fill"></i>
+                            <span>Guida</span></a>
+                        </div>
+                    </aside>
+		        	</div>	
+
+            	</div>
+		</section>	
+
+		<footer>
+			<div class="container mt-2">  
+				<p class="text-center"> <a a href="mailto:lorenga.gallo@studio.unibo.it" title="Contatti">Contatti</a>
+					| <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/deed.it" target="_blank" title="Licenze">Licenze</a>
+					| Credits
+				</p>
+				<p class="text-center">&copy; Copyright (c) 2021 by Lorenza Gallo - FICLIT - Università di Bologna 
+				</p>
+			</div>	
+		</footer>
+		
+			<!--collegamento a jQuery-->
+		<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" 
+		integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" 
+		crossorigin="anonymous"></script>
+
+		<!--Bootstrap JS-->
+		<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+	</body>
+</html>	

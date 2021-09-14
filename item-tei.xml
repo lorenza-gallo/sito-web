@@ -1,0 +1,115 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>L'affaire Moro: con aggiunta la relazione parlamentare </title>
+				<author>Sciascia, Leonardo</author>
+				<respStmt>
+					<resp>Codifica TEI</resp>
+					<name>Lorenza Gallo</name>
+				</respStmt>
+				<respStmt>
+					<resp>Trascrizione</resp>
+					<name>Lorenza Gallo</name>
+				</respStmt>	
+			</titleStmt>
+			<editionStmt>
+				<p> Tentativo di digitalizzare una parte del documento </p>
+			</editionStmt>
+			<publicationStmt>
+				<distributor>Alma Mater Studiorum - Università di Bologna</distributor>
+				<availability status="restricted">
+					<licence>Pubblicato con <ref target="https://creativecommons.org/licenses/by-nc-nd/3.0/deed.it">Creative Commons Attribuzione - Non commerciale - Non opere derivate 3.0 Unported License</ref>.</licence>
+					<p>Questa risorsa digitale è accessibile per uso personale o scientifico. Ogni uso commerciale è vietato.</p>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title> Il caso Moro: memorie e narrazioni </title>
+			</seriesStmt>
+			<notesStmt>
+				<note>Primi paragrafi del documento</note>
+			</notesStmt>	
+			<sourceDesc>
+				<biblStruct>
+					<monogr>
+						<title level="m">L'affaire Moro: con aggiunta la relazione parlamentare</title>
+						<author>Sciascia, Leonardo</author>
+						<imprint>
+							<publisher>Adelphi</publisher>
+							<pubPlace>Milano</pubPlace>
+							<date>1994</date>
+							<series>
+								<title>Piccola Biblioteca Adelphi</title>
+								<respStmt>
+									<name>Roberto Calasso</name>
+									<resp>direttore responsabile</resp>
+								</respStmt>	
+								<idno type="installament">332</idno>
+							</series>
+							<idno type="ISBN">978-88-459-1083-8</idno>
+							<extent>196 p.</extent>
+							<extent>18 cm</extent>
+						</imprint>
+					</monogr>	
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>Originariamente scritto nell'<date when="1978-08">agosto 1978</date> a <name type="city">Racalmuto</name>.</creation>
+			<langUsage>
+				<language ident="it">Italiano</language>
+				<language ident="fr">Francese</language>
+				<language ident="sic">Dialetto Siciliano</language>
+			</langUsage>
+			<textClass>
+				<keywords scheme="#lcsh">
+					<list>
+						<item>Italy--Politics and government--1976-1994</item>
+						<item>Terrorism--Italy</item>
+					</list>	
+				</keywords>	
+				<classCode scheme="#DDC">945.0927092</classCode>
+			</textClass>	
+		</profileDesc>	
+	</teiHeader>
+
+	<text>
+		<front>
+			<div type="index">
+				<head>INDICE</head>
+				<list>
+					<item>L'AFFAIRE MORO</item>
+					<item>Cronologia dell'<foreign xml:lang="fr" rend="italic">Affaire</foreign></item>
+					<item>Relazione di minoranza presentata dal deputato Leonardo Sciascia</item>
+				</list>
+			</div>
+			<titlePage>
+				<docTitle>
+					<titlePart type="main">L'AFFAIRE MORO</titlePart>
+				</docTitle>	
+				<div type="esergo">
+					<cit><quote>La frase più mostruosa di tutte: qualcuno è morto <mentioned>«al momento giusto»</mentioned>.</quote>
+					<bibl><author>E. CANETTI</author>, <title>La provincia dell'uomo</title></bibl></cit>
+				</div>
+			</titlePage>		
+		</front>
+
+		<body>
+			<div>
+				<p xml:lang="it"><time>Ieri sera</time>, uscendo per una passeggiata, ho visto nella crepa di un muro una lucciola. Non ne vedevo, in questa campagna, da almeno <time when="1938"><num type="cardinal" value="40">quarant</num>'anni</time>: e perciò credetti dapprima si trattasse di uno schisto del gesso con cui erano state murate le pietre o di una scaglia di specchio; e che la luce della luna, ricamandosi tra le fronde, ne traesse quei riflessi verdastri. Non potevo subito pensare a un ritorno delle lucciole, dopo tanti anni che erano scomparse. Erano ormai un ricordo: dell'infanzia allora attenta alle piccole cose della natura, che di quelle cose sapeva fare giuoco e gioia. Le lucciole le chiamavamo <foreign xml:lang="sic" rend="italic">cannileddi di picuraru</foreign>, così i contadini le chiamavano. Tanto consideravano greve la vita del pecoraio, le notti passate a guardia della mandria, che gli largivano le lucciole come reliquia o memoria di luce nella paurosa oscurità. Paurosa per gli abigeati frequenti. Paurosa perché bambini erano di solito quelli che si lasciavano a guardia delle pecore. Le candeline del pecoraio, dunque. E ogni tanto ne prendevamo qualcuna, la tenevamo delicatamente chiusa nel pugno per poi aprirne a sorpresa, tra i più piccoli di noi, quella fosforescenza smeraldina.</p>
+
+				<p xml:lang="it">Era proprio una lucciola, nella crepa del muro. Ne ebbi una gioia intensa. E come doppia. E come sdoppiata. La gioia di un tempo ritrovato – l’infanzia, i ricordi, questo stesso luogo ora silenzioso ora pieno di voci e giuochi – e di un tempo da trovare, da inventare. Con <name type="person">Pasolini</name>. Per <name type="person">Pasolini</name>. <name type="person">Pasolini</name> ormai fuori dal tempo, ma non ancora, in questo terribile paese che l’<name type="nation">Italia</name> è diventato, mutato in se stesso (<q><foreign xml:lang="fr">«Tel qu’en Lui-même enfin l’éternité le change»</foreign></q>). Fraterno e lontano, <name type="person">Pasolini</name> per me. Di una fraternità senza confidenza, schermata di pudori e, credo, di reciproche insofferenze. Per mia parte sentivo come un muro che ci separasse una parola a lui cara, una parola-chiave della sua vita: la parola <mentioned>«adorabile»</mentioned>. Può darsi che questa parola io l’abbia qualche volta scritta, e sicuramente più volte l’ho pensata: ma per una sola donna e un solo scrittore. E lo scrittore – forse è inutile dirlo – è <name role="writer" type="person">Stendhal</name>. <rs xml:id="Pasolini"><name type="person">Pasolini</name></rs> trova invece <mentioned>«adorabile»</mentioned> quel che per me dell’<name type="nation">Italia</name> era già straziante (ma anche per lui, ricordando un <q who="#Pasolini">«adorabili perché strazianti»</q> delle <title rend="italic">Lettere luterane</title>: e come si può adorare ciò che strazia?) e sarebbe diventato terribile. Trovava <mentioned>«adorabili»</mentioned> quelli che inevitabilmente sarebbero stati strumenti della sua morte. E attraverso i suoi scritti si può compilare un piccolo dizionario delle cose per lui <mentioned>«adorabili»</mentioned> e per me soltanto strazianti e oggi terribili.</p>
+
+				<p xml:lang="it">Le lucciole, dunque. Ed ecco che – pietà e speranza – qui scrivo per <name type="person">Pasolini</name> come riprendendo <time>dopo più che<num type="cardinal" value="20">vent</num>’anni</time> una corrispondenza: <q type="thought">«Le lucciole che credevi scomparse, cominciano a tornare. Ed è stato così anche con i grilli: per <time when="1974"><num type="cardinal" value="4">quattro</num></time> o <time when="1973"><num type="cardinal" value="5">cinque</num></time> anni non li ho sentiti, ora le notti sono sterminatamente gremite del loro frinire».</q></p>
+			</div>	
+		</body>
+
+		<back>
+			<div type="colophon">
+				<p>Stampato da Studio Due S.A.S. - Milano</p>
+			</div>
+		</back>
+
+	</text>
+</TEI>

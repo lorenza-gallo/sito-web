@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns:mp="http://example.org/MyProject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xsi:schemaLocation="http://example.org/MyProject/ http://example.org/MyProject/schema.xsd" xml:id="CM-MN"> <!--Caso Moro - Memorie Narrazioni-->
+	<item n="CM-MN-01">
+		<dc:title xsi:type="mp:viaf" mp:ref="http://viaf.org/viaf/214778882">L'affaire Moro: con aggiunta la relazione parlamentare</dc:title> 
+		<dc:creator xsi:type="mp:viaf" mp:ref="http://viaf.org/viaf/29540540">Sciascia, Leonardo</dc:creator>
+		<dc:subject>Moro, Aldo rapimento</dc:subject>
+		<dc:subject>Moro, Aldo assassinio</dc:subject>
+		<dc:subject>cronaca italiana, terrorismo, anni di piombo, indagine linguistica, verità </dc:subject>
+		<dc:subject xsi:type="dcterms:DDC">945.0927092 STORIA D'ITALIA. 1970-1979. Persone</dc:subject>
+		<dc:subject xsi:type="dcterms:LCSH">https://id.loc.gov/authorities/subjects/sh85069018.html</dc:subject>
+		<dc:subject xsi:type="dcterms:LCSH">https://id.loc.gov/authorities/subjects/sh2008112803.html</dc:subject>
+		<dc:description>Il libro di Sciascia è stato scritto "a caldo" nel 1978. Mentre, in una gara di codardia, i politici italiani, nonché i giornalisti, si affannavano a dichiarare che le lettere di Moro dalla prigionia erano opera di un pazzo o comunque prive di valore perché risultanti da una costrizione, Sciascia si azzardò a "leggerle". Riuscì in tal modo a ricostruire una intelaiatura di pensieri, di correlazioni, di fatti che sono, fino a oggi, ciò che più ci ha permesso di avvicinarci a capire, un episodio orribile della nostra storia. Presentando il libro nella edizione del 1983, Sciascia scriveva: "questo libro potrebbe anche esser letto come opera letteraria". Ma l'autore (membro della Commissione parlamentare d'inchiesta) lo ha vissuto come "opera di verità".</dc:description>
+		<dc:publisher>Adelphi, Milano</dc:publisher>
+		<dc:publisher type="series">Piccola biblioteca Adelphi, 332</dc:publisher>
+		<dc:date>1994</dc:date>
+		<dc:type>Testo</dc:type>
+		<dc:type>Monografia</dc:type>
+		<dc:format>196 p. ; 18 cm</dc:format>
+		<dc:identifier xsi:type="dcterms:ISBN">978-88-459-1083-8</dc:identifier>
+		<dc:identifier xsi:type="dcterms:SBN">IT\ICCU\RMS\2311184</dc:identifier>
+		<dc:language xsi:type="dcterms:LCC" mp:ref="https://id.loc.gov/vocabulary/languages/ita.html">it</dc:language>
+		<dc:relation xsi:type="dcterms:ISBN">978-88-459-1758-5</dc:relation> <!--Todo Modo-->
+		<dc:relation xsi:type="dcterms:ISBN">978-88-06-23870-4</dc:relation> <!--Lettere dalla prigionia-->
+		<dc:coverage xsi:type="dcterms:TGN" mp:ref="http://vocab.getty.edu/page/tgn/1000080">Italia</dc:coverage>
+		<dc:coverage xsi:type="dcterms:TGN" mp:ref="http://vocab.getty.edu/page/tgn/7003150">Milano</dc:coverage>
+		<dc:rights>Copyright 1994 Adelphi edizioni S.P.A. Milano www.adelphi.it</dc:rights>	
+	</item>
+</collection>
