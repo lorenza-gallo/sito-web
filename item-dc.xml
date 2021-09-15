@@ -23,6 +23,6 @@
 		<dc:relation xsi:type="dcterms:ISBN">978-88-06-23870-4</dc:relation> <!--Lettere dalla prigionia-->
 		<dc:coverage xsi:type="dcterms:TGN" mp:ref="http://vocab.getty.edu/page/tgn/1000080">Italia</dc:coverage>
 		<dc:coverage xsi:type="dcterms:TGN" mp:ref="http://vocab.getty.edu/page/tgn/7003150">Milano</dc:coverage>
-		<dc:rights>Copyright 1994 Adelphi edizioni S.P.A. Milano www.adelphi.it</dc:rights>	
+		<dc:rights>Copyright 1994 Adelphi edizioni S.P.A. Milano</dc:rights>	
 	</item>
 </collection>
