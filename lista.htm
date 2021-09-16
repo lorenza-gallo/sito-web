@@ -52,7 +52,7 @@
                         <a class="nav-link" href="#">|</a>
                       </li>
 				  	  <li class="nav-item">
-				        <a class="nav-link" href="#" target="_blank">Persone</a>
+				        <a class="nav-link" href="#">Persone</a>
 				      </li>	
 				    </ul>
 				    <form class="form-inline my-2 my-lg-0">
@@ -67,9 +67,17 @@
 		<section class="container-fluid">
 				<h2 class="text-center mt-2">Lista</h2>
 				<div class="row">
-					<!--FILTRI-->
+					
 					<div class="col-md-2 col-sm-2 col-xs-12 mt-4">
                     <aside>
+                    	<!-- BREADCRUMBS -->
+                        <nav aria-label="breadcrumb">
+						  <ol class="breadcrumb">
+						    <li class="breadcrumb-item"><a href="index.htm" title="Torna alla pagina Home">Home</a></li>
+						    <li class="breadcrumb-item active" aria-current="page">Lista</li>
+						  </ol>
+						</nav>
+						
                     	<!--ORDINA LA LISTA-->	
 						<div class="checkbox-container">
 		                    <h3 class="mb-0">Ordina la lista:</h3>
@@ -149,15 +157,14 @@
 		        					<!--PRIMO ITEM-->
 		        					<div class="col-md-4 mt-4">
 					        			<div class="card card-item">
-					        				<span class="ml-2 mt-2 p-2"><a href="#" target="_blank"
-                                        	title="Vedi tutti i libri del catalogo"><i class="bi bi-book"></i></a></span>
+					        				<span class="ml-2 mt-2 p-2"><i class="bi bi-book"></i></span>
 										  <img src="immagini/affaire-moro.jpg" class="card-img-top" alt="L'Affaire Moro" class="img-fluid" height="400px">
 										  <div class="card-body">
-										    <h4 class="card-title">L'affaire Moro</h4>
+										    <h4 class="card-title">L'affaire Moro: con aggiunta la relazione parlamentare</h4>
 										    <p class="card-text">Autore: <b><a href="http://viaf.org/viaf/29540540" target="_blank" title="Identificativo VIAF di Sciascia, Leonardo">Sciascia, Leonardo.<sup>VIAF</sup></a></b><br>
 										    Data: 1994.<br>
 											Pubblicazione: <a href="https://it.wikipedia.org/wiki/Adelphi" target="_blank" title="Pagina Wikipedia casa editrice Adelphi">Adelphi, Milano<sup>Wikipedia</sup></a>.</p>
-										    <a href="item.htm" class="btn btn-danger">Tutti i metadati</a>
+										    <span class="bottoni-card mt-auto"><a href="item.htm" class="btn btn-danger btn-block">Tutti i metadati</a></span>
 										  </div>
 										</div>
 					        		</div>
@@ -165,15 +172,14 @@
 					        		<!--SECONDO ITEM-->
 					        		<div class="col-md-4 mt-4">
 					        			<div class="card card-item">
-					        				<span class="ml-2 mt-2 p-2"><a href="#" target="_blank"
-                                        	title="Vedi tutte le foto del catalogo"><i class="bi bi-camera"></i></a></span>
+					        				<span class="ml-2 mt-2 p-2"><i class="bi bi-camera"></i></span>
 										  <img src="immagini/renault.jpg" class="card-img-top" alt="La Renault 4 in cui è stato trovato il cadavere di Moro il 9 maggio 1978" class="img-fluid" height="400px">
 										  <div class="card-body">
 										    <h4 class="card-title">La Renault 4 in cui è stato trovato il corpo di Moro</h4>
 										    <p class="card-text">Fondo: <b>Masterphoto.</b><br>
 												   Data: 1978.<br>
 												   Istituzione fornitrice: <a href="https://it.wikipedia.org/wiki/Istituto_Luce_Cinecitt%C3%A0" target="_blank" title="Pagina Wikipedia Istituto Luce">Istituto Luce - Cinecittà, Roma<sup>Wikipedia</sup></a>. </p>
-										    <a href="#" class="btn btn-danger">Tutti i metadati</a>
+										    <span class="bottoni-card mt-auto"><a href="#" class="btn btn-danger btn-block">Tutti i metadati</a><span class="mb-1">
 										  </div>
 										</div>
 					        		</div>
@@ -181,15 +187,15 @@
 					        		<!--TERZO ITEM-->
 					     			<div class="col-md-4 mt-4">
 					     				<div class="card card-item">
-					     					<span class="ml-2 mt-2 p-2"><a href="#" target="_blank"
-                                        	title="Vedi tutti i film del catalogo"><i class="bi bi-film"></i></a></span>
+					     					<span class="ml-2 mt-2 p-2"><i class="bi bi-film"></i></span>
 										  <img src="immagini/buongiorno-notte.jpg" class="card-img-top" alt="Buongiorno, notte" class="img-fluid" height="400px">
 										  <div class="card-body">
 										    <h4 class="card-title">Buongiorno, notte</h4>
 										    <p class="card-text">Regista: <b><a href="http://viaf.org/viaf/110292071" target="_blank" title="Identificativo VIAF di Bellocchio, Marco">Bellocchio, Marco.<sup>VIAF</sup></a></b> <br>
-										    Data: 2011.<br>
-											Pubblicazione: <a href="https://it.wikipedia.org/wiki/01_Distribution" target="_blank" title="01 Distribution">01 Distribution, Roma<sup>Wikipedia</sup></a>.</p>
-										    <a href="#" class="btn btn-danger">Tutti i metadati</a>
+										    Data: 2003.<br>
+											Durata: ca. 102 min. <br>
+											Distribuzione: <a href="https://it.wikipedia.org/wiki/01_Distribution" target="_blank" title="01 Distribution">01 Distribution, Roma<sup>Wikipedia</sup></a>.</p>
+										    <span class="bottoni-card mt-auto"><a href="#" class="btn btn-danger btn-block">Tutti i metadati</a></span>
 										  </div>
 										</div>
 					        		</div>
@@ -200,53 +206,57 @@
 							    <div class="row">
 
 				        			<!--PRIMO ITEM-->
-				        			<div class="col-md-4 mt-4">
-							        	<div class="card card-item riga2">
-							        		<span class="ml-2 mt-2 p-2"><a href="#" target="_blank"
-                                        	title="Vedi tutti i video del catalogo"><i class="bi bi-camera-reels"></i></a></span>
+				        			<div class="col-md-4 mt-4" >
+							        	<div class="card card-item-riga2">
+							        		<span class="ml-2 mt-2 p-2"><i class="bi bi-camera-reels"></i></span>
 										  <img src="immagini/via-fani.jpg" class="card-img-top" alt="Il sequestro di Aldo Moro in via Fani" class="img-fluid" height="200px">
 										  <div class="card-body">
+										  	<div class="card-metadata-riga2">
 											   <h4 class="card-title">Dopo la strage di via Fani e il rapimento di Aldo Moro</h4>
 											   <p class="card-text">Codice identificativo: <b>NC049101.</b><br>
-											   	Serie: N0491. <br>
+											   	Serie: N0491.<br>
 											   	Data: marzo 1978.<br>
+											   	Durata: 00:02:07.<br>
 											   	Istituzione fornitrice: <a href="https://it.wikipedia.org/wiki/Istituto_Luce_Cinecitt%C3%A0" target="_blank" title="Pagina Wikipedia Istituto Luce">Istituto Luce - Cinecittà, Roma<sup>Wikipedia</sup></a>.
 											   </p>
-											   <a href="#" class="btn btn-danger">Tutti i metadati</a>
+											   <span class="bottoni-card mt-auto"><a href="#" class="btn btn-danger btn-block">Tutti i metadati</a></span>
+											</div> 
 										  </div>
 										</div>
 							        </div>
 
 							        <!--SECONDO ITEM-->
 							        <div class="col-md-4 mt-4">
-							        	<div class="card card-item riga2">
-							        			<span class="ml-2 mt-2 p-2"><a href="#" target="_blank"
-                                        		title="Vedi tutte i testi del catalogo"><i class="bi bi-file-text"></i></a></span>
+							        	<div class="card card-item-riga2">
+							        			<span class="ml-2 mt-2 p-2"><i class="bi bi-file-text"></i></span>
 										  	 <img src="immagini/carteggio-moro-frammento.jpg" class="card-img-top" alt="Frammento di lettera del carteggio di Moro alla famiglia" class="img-fluid" height="200px">
 										  	 <div class="card-body">
-										    	<h4 class="card-title">Carteggio di solidarietà - 55 giorni </h4>
+										  	 	<div class="card-metadata-riga2">
+										    		<h4 class="card-title">Carteggio di solidarietà - 55 giorni </h4>
 												   <p class="card-text">Autore: <b><a href="http://viaf.org/viaf/73876435">Moro, Aldo<sup>VIAF</sup></a></b>.<br>
 												   	Data: 16 marzo 1978 - 9 maggio 1978.<br>
 												   	Istituzione fornitrice: <a href="http://www.archivioflamigni.org/" target="_blank" title="Pagina dell'Archivio Flamigni">Centro documentazione Archivio Flamigni<sup></sup></a>.
 												   </p>
-												   <a href="#" class="btn btn-danger">Tutti i metadati</a>
+												   <span class="bottoni-card mt-auto"><a href="#" class="btn btn-danger btn-block">Tutti i metadati</a></span>
+												</div>
 											 </div>
 										</div>
 							        </div>
 
 							        <!--TERZO ITEM-->
 							     	<div class="col-md-4 mt-4">
-							     		<div class="card card-item riga2">
-							     				<span class="ml-2 mt-2 p-2"><a href="#" target="_blank"
-                                        		title="Vedi tutte le registrazioni del catalogo"><i class="bi bi-mic"></i></a></span>
+							     		<div class="card card-item-riga2">
+							     				<span class="ml-2 mt-2 p-2"><i class="bi bi-mic"></i></span>
 											  <img src="immagini/raiteche-telefonata.jpg" class="card-img-top" alt="La telefonata delle BR a Francesco Tritto con l'annuncio dell'uccisione" class="img-fluid" height="200px">
 											  <div class="card-body">
+											  	<div class="card-metadata-riga2">
 												   <h4 class="card-title">La telefonata delle BR a Francesco Tritto con l'annuncio dell'uccisione di Moro</h4>
 												   <p class="card-text">Programma: <b>Giornale Radio 2.</b><br>
 												   	Data: 1 luglio 1978.<br>
 												   	Istituzione fornitrice: <a href="https://it.wikipedia.org/wiki/Rai_Teche" target="_blank" title="Pagina dell'archivio di Rai Teche">Rai Teche<sup>Wikipedia</sup>.</a>
 												   </p>
-												   <a href="#" class="btn btn-danger">Tutti i metadati</a>
+												   <span class="bottoni-card mt-auto"><a href="#" class="btn btn-danger btn-block">Tutti i metadati</a></span>
+												</div> 
 											  </div>
 										</div>
 							        </div>
@@ -259,16 +269,16 @@
 		        					<!--PRIMO ITEM-->
 		        					<div class="col-md-4 mt-4">
 					        			<div class="card card-item">
-					        				<span class="ml-2 mt-2 p-2"><a href="#" target="_blank"
-                                        	title="Vedi tutti i film del catalogo"><i class="bi bi-film"></i></a></span>
+					        				<span class="ml-2 mt-2 p-2"><i class="bi bi-film"></i></span>
 										  <img src="immagini/il-caso-moro-film.jpg" class="card-img-top" alt="Il caso Moro" class="img-fluid" height="400px">
 										  <div class="card-body">
 										    <h4 class="card-title">Il caso Moro</h4>
 										    <p class="card-text">Regista: <b><a href="http://viaf.org/viaf/90142558" target="_blank" title="Identificativo VIAF di Ferrara, Giuseppe">Ferrara, Giuseppe.<sup>VIAF</sup></a></b><br>
 										    Data: 1986.<br>
-										    Pubblicazione: <a href="https://it.wikipedia.org/wiki/Il_Messaggero" target="_blank" title="Pagina Wikipedia Il Messaggero">Il Messaggero, Roma<sup>Wikipedia</sup>.</a>	
+										    Durata: ca. 110 min. <br>
+										    Distribuzione: <a href="https://it.wikipedia.org/wiki/Columbia_Pictures" target="_blank" title="Pagina Wikipedia Columbia Pictures">Columbia Pictures Italia<sup>Wikipedia</sup>.</a>	
 										    </p>
-										    <a href="#" class="btn btn-danger">Tutti i metadati</a>
+										    <span class="bottoni-card mt-auto"><a href="#" class="btn btn-danger btn-block">Tutti i metadati</a></span>
 										  </div>
 										</div>
 					        		</div>
@@ -276,15 +286,14 @@
 					        		<!--SECONDO ITEM-->
 					        		<div class="col-md-4 mt-4">
 					        			<div class="card card-item">
-					        				<span class="ml-2 mt-2 p-2"><a href="#" target="_blank"
-                                        		title="Vedi tutti i testi del catalogo"><i class="bi bi-file-text"></i></a></span>
+					        				<span class="ml-2 mt-2 p-2"><i class="bi bi-file-text"></i></span>
 											  <img src="immagini/lettere-moro-disivo.png" class="card-img-top" alt="Le lettere di Aldo Moro. Dalla prigionia alla storia" class="img-fluid" height="400px">
 											  <div class="card-body">
 												   <h4 class="card-title">Le lettere di Aldo Moro. Dalla prigionia alla storia</h4>
 										    		<p class="card-text">Curatore: <b><a href="http://viaf.org/viaf/90315105" target="_blank" title="Identificativo VIAF di Di Sivo, Michele">Di Sivo, Michele.<sup>VIAF</sup></a></b><br>
 										    		Data: 2013.<br>
 										    		Istituzione fornitrice: <a href="https://it.wikipedia.org/wiki/Archivio_di_Stato_di_Roma" target="_blank" title="Pagina Wikipedia dell'Archivio di Stato di Roma">Archivio di Stato, Roma<sup>Wikipedia</sup></a>.</p>
-										    		<a href="#" class="btn btn-danger">Tutti i metadati</a>
+										    		<span class="bottoni-card mt-auto"><a href="#" class="btn btn-danger btn-block">Tutti i metadati</a></span>
 										  	  </div>
 										</div>
 					        		</div>
@@ -292,8 +301,7 @@
 					        		<!--TERZO ITEM-->
 					     			<div class="col-md-4 mt-4">
 					     				<div class="card card-item">
-					     					<span class="ml-2 mt-2 p-2"><a href="#" target="_blank"
-                                        	title="Vedi tutti i libri del catalogo"><i class="bi bi-book"></i></a></span>
+					     					<span class="ml-2 mt-2 p-2"><i class="bi bi-book"></i></span>
 										  <img src="immagini/todo-modo-sciascia.jpg" class="card-img-top" alt="Todo Modo" class="img-fluid" height="400px">
 										  <div class="card-body">
 										    <h4 class="card-title">Todo Modo</h4>
@@ -301,7 +309,7 @@
 										    Data: 1995.<br>
 										    Pubblicazione: <a href="https://it.wikipedia.org/wiki/Adelphi" target="_blank" title="Pagina Wikipedia casa editrice Adelphi">Adelphi, Milano<sup>Wikipedia</sup></a>.	
 										    </p>
-										    <a href="#" class="btn btn-danger">Tutti i metadati</a>
+										    <span class="bottoni-card mt-auto"><a href="#" class="btn btn-danger btn-block">Tutti i metadati</a></span>
 										  </div>
 										</div>
 					        		</div>
@@ -351,13 +359,31 @@
 		</section>	
 
 		<footer>
-			<div class="container mt-2">  
-				<p class="text-center"> <a a href="mailto:lorenga.gallo@studio.unibo.it" title="Contatti">Contatti</a>
-					| <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/deed.it" target="_blank" title="Licenze">Licenze</a>
-					| Credits
-				</p>
-				<p class="text-center">&copy; Copyright (c) 2021 by Lorenza Gallo - FICLIT - Università di Bologna 
-				</p>
+			<!--informazioni secondarie-->
+			<div class="container-fluid background-foot pb-5 pt-5">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4"> 
+							<h3>Il progetto</h3>
+							<p>Il caso Moro: memorie e narrazioni è un progetto nato nell'ambito del corso di <a href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/444725" target="_blank" title="Pagina del corso DH&CH">Digital Humanities e Patrimonio Culturale</a> del corso di Laurea Magistrale in Italianistica dell'Università di Bologna.</p>			
+						</div>	
+						<div class="col-md-4">
+							<h3>Contatti</h3>
+							<p><a href="https://www.unibo.it/it" target="_blank" title="Pagina UniBo">Alma Mater Studiorum - Università di Bologna</a> <br>
+							<a href="https://ficlit.unibo.it/it" target="_blank" title="Pagina del dipartimento FICLIT UniBo">Dipartimento FICLIT - UniBo</a> <br>
+							<a href="mailto:lorenza.gallo@studio.unibo.it">lorenza.gallo@studio.unibo.it</a></p>
+						</div>
+						<div class="col-md-4">
+							<h3>Licenza</h3>
+							<img alt="Creative Commons License" class="mb-3" src="https://licensebuttons.net/l/by-nc-nd/3.0/88x31.png"/>
+							<p>Quest'opera è distribuita con <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/deed.it" target="_blank" title="Licenze">Licenza Creative Commons Attribuzione - Non commerciale - Non opere derivate 3.0</a>.</p>
+						</div>	
+					</div>
+				</div>		
+			</div>	
+			<!--copyright-->
+			<div class="container-fluid background-copy">
+				<p class="mb-0 pb-1 pt-1 text-center">&copy; Copyright (c) 2021 by Lorenza Gallo - FICLIT - Università di Bologna</p>
 			</div>	
 		</footer>
 		

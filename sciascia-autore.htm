@@ -52,7 +52,7 @@
                         <a class="nav-link" href="#">|</a>
                       </li>
 				      <li class="nav-item">
-				        <a class="nav-link" href="#" target="_blank">Persone</a>
+				        <a class="nav-link" href="#">Persone</a>
 				      </li>	
 				    </ul>
 				    <form class="form-inline my-2 my-lg-0">
@@ -65,7 +65,7 @@
 		</header>
 
 		<section class="container">
-			<h2 class="text-center mt-3"><i class="bi bi-person"></i> Sciascia, Leonardo</h2>
+			<h2 class="text-center mt-3"><a href="#" title="Vedi tutte le Persone del catalogo"><i class="bi bi-person"></i></a> Sciascia, Leonardo</h2>
 				<div class="row">
 					<div class="col-md-7 mt-5">
 						<img src="immagini/leonardo-sciascia.jpg" alt="Leonardo Sciascia" class="img-fluid" height="350px" width="600px">
@@ -75,25 +75,31 @@
 								</div>
 							</div>						
 					</div>
-					<div class="col-md-5 mt-4">
-						<p><b><span class="persona">Leonardo Sciascia</span></b> (Racalmuto 1921 - Palermo 1989) è stato uno scrittore, giornalista, saggista, drammaturgo, poeta, politico, critico d'arte e insegnante italiano.<a href="https://it.wikipedia.org/wiki/Leonardo_Sciascia" target="_blank" title="Pagina Wikipedia di Leonardo Sciascia"><sup>Wikipedia</sup></a><br>
-						Spirito libero e anticonformista, lucidissimo e impietoso critico del nostro tempo, Sciascia è una delle grandi figure del Novecento italiano ed europeo. All'ansia di conoscere le contraddizioni della sua terra e dell'umanità, unì un senso di giustizia pessimistico e sempre deluso, ma che non rinuncia mai all'uso della ragione umana di matrice illuminista, per attuare questo suo progetto. All'influenza del relativismo conoscitivo di <span class="persona">Luigi Pirandello</span> si possono ricondurre invece l'umorismo e la difficoltà di pervenire a una conclusione che i suoi protagonisti incontrano: la realtà non sempre è osservabile in maniera obiettiva, e spesso è un insieme inestricabile di verità e menzogna.</p>
-							<div class="row">
-								<div class="col-md-12 mt-5">
-									<iframe width="400" height="250" src="https://www.youtube.com/embed/w_G43rViubM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-								</div>	
-							</div>
-						</div>	
+					<div class="col-md-5 mt-5">
+						<div>
+							<p><b><span class="persona">Leonardo Sciascia</span></b> (Racalmuto 1921 - Palermo 1989) è stato uno scrittore, giornalista, saggista, drammaturgo, poeta, politico, critico d'arte e insegnante italiano.<a href="https://it.wikipedia.org/wiki/Leonardo_Sciascia" target="_blank" title="Pagina Wikipedia di Leonardo Sciascia"><sup>Wikipedia</sup></a><br>
+							Spirito libero e anticonformista, lucidissimo e impietoso critico del nostro tempo, Sciascia è una delle grandi figure del Novecento italiano ed europeo. All'ansia di conoscere le contraddizioni della sua terra e dell'umanità, unì un senso di giustizia pessimistico e sempre deluso, ma che non rinuncia mai all'uso della ragione umana di matrice illuminista, per attuare questo suo progetto. All'influenza del relativismo conoscitivo di <span class="persona">Luigi Pirandello</span> si possono ricondurre invece l'umorismo e la difficoltà di pervenire a una conclusione che i suoi protagonisti incontrano: la realtà non sempre è osservabile in maniera obiettiva, e spesso è un insieme inestricabile di verità e menzogna.</p>
+						</div>
+						<article>
+							<h3 class="text-light">Per approfondire:</h3>
+								<iframe width="400" height="250" src="https://www.youtube.com/embed/w_G43rViubM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</article>
+								
 					</div>	
 				</div>
 		</section>		
 
 		<section class="container mt-5 mb-5" id="metadati-item">
-			<p class="metadati-bottoni mb-3">
-			<a href="https://creativecommons.org/licenses/by-nc-nd/3.0/deed.it" target="_blank" class="btn btn-dark active" role="button" aria-pressed="true"><img alt="Creative Commons License" style="border-width:0; width: 60px;" src="https://licensebuttons.net/l/by-nc-nd/3.0/88x31.png"/> Licenza</a>
-			<a href="#" class="btn btn-dark active" role="button" aria-pressed="true"><i class="bi bi-share-fill"></i> Condividi</a>
-			<a href="#" class="btn btn-dark active" role="button" aria-pressed="true"><i class="bi bi-code-square"></i> XML/DC</a>
-			</p>
+
+			<div class="mb-3">
+				<!--Licenza-->
+				<a href="https://creativecommons.org/licenses/by-nc-nd/3.0/deed.it" target="_blank" class="btn btn-dark active" role="button" aria-pressed="true"><img alt="Creative Commons License" class="licenza" src="https://licensebuttons.net/l/by-nc-nd/3.0/88x31.png"/> Licenza</a>
+				<!--Condividi-->
+				<a href="#" class="btn btn-dark active" role="button" aria-pressed="true"><i class="bi bi-share-fill"></i> Condividi</a>
+				<!--XML/DC-->
+				<a href="#" class="btn btn-dark active" role="button" aria-pressed="true"><i class="bi bi-code-square"></i> XML/DC</a>
+				
+			</div>	
 
 			<div class="table-responsive">
 				<table class="table table-bordered">
@@ -166,28 +172,32 @@
 			</div>
 		</section>			
 
-		<div class="container">
+		<section class="container-fluid" id="nav-con">
 			<aside>	
 				<div class="row">
 					<!--DELL'AUTORE IN CATALOGO-->
 					<div class="col-md-6 mt-5 mb-5">
-						<h3 class="text-center mb-3">Dell'autore in catalogo:</h3>
-						<div class="row">
-							<div class="col-md-6">
-							    <img src="immagini/affaire-moro.jpg" alt="L'Affaire Moro" height="400px" width="250px">
-							    <p class="text-center"><a href="item.htm" target="_blank" class="btn btn-danger mt-3">Scopri di più</a></p>
+						<div class="container">
+						<h3 class="text-center text-light mb-3">Dell'autore in catalogo:</h3>
+							<div class="row">
+								<!--L'affaire Moro-->
+								<div class="col-md-6">
+							    	<img src="immagini/affaire-moro.jpg" alt="L'Affaire Moro" height="400px" width="250px">
+							    	<p><a href="item.htm" target="_blank" class="btn btn-danger mt-3 ml-5">Scopri di più</a></p>
+								</div>
+								<!--Todo Modo-->
+								<div class="col-md-6">
+						  			<img src="immagini/todo-modo-sciascia.jpg" alt="Todo Modo" height="400px" width="250px">
+						    		<p><a href="#" class="btn btn-danger mt-3 ml-5">Scopri di più</a></p>
+						  		</div>
 							</div>
-
-							<div class="col-md-6">
-						  		<img src="immagini/todo-modo-sciascia.jpg" alt="Todo Modo" height="400px" width="250px">
-						    	<p class="text-center"><a href="#" class="btn btn-danger mt-3">Scopri di più</a></p>
-						  </div>
 						</div>
-					</div>
+					</div>	
 					
 					<!--POTREBBE INTERESSARTI ANCHE-->
 					<div class="col-md-6 mt-5 mb-5">
-						<h3 class="text-center mb-3">Potrebbe interessarti anche:</h3>
+						<div class="container">
+						<h3 class="text-center text-light mb-3">Potrebbe interessarti anche:</h3>
 						<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 						  <ol class="carousel-indicators p-3">
 						    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -229,23 +239,42 @@
 						    <span class="sr-only">Next</span>
 						  </a>
 						</div>	
+						</div>
 					</div>	
 				</div>
 			</aside>		
-		</div>	
+		</section>	
 
-		<section>	
-			<p class="text-center mt-4 mb-4"><a href="#top"><i class="bi bi-arrow-up"></i>Torna su</a></p>
-		</section>
+		<section class="mt-5- mb-2">	
+			<p class="text-center"><a href="#top"><i class="bi bi-arrow-up"></i>Torna su</a></p>
+		</section>	
 
 		<footer>
-			<div class="container mt-2">  
-				<p class="text-center"> <a a href="mailto:lorenga.gallo@studio.unibo.it" title="Contatti">Contatti</a>
-					| <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/deed.it" target="_blank" title="Licenze">Licenze</a>
-					| Credits
-				</p>
-				<p class="text-center">&copy; Copyright (c) 2021 by Lorenza Gallo - FICLIT - Università di Bologna 
-				</p>
+			<!--informazioni secondarie-->
+			<div class="container-fluid background-foot pb-5 pt-5">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4"> 
+							<h3>Il progetto</h3>
+							<p>Il caso Moro: memorie e narrazioni è un progetto nato nell'ambito del corso di <a href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/444725" target="_blank" title="Pagina del corso DH&CH">Digital Humanities e Patrimonio Culturale</a> del corso di Laurea Magistrale in Italianistica dell'Università di Bologna.</p>			
+						</div>	
+						<div class="col-md-4">
+							<h3>Contatti</h3>
+							<p><a href="https://www.unibo.it/it" target="_blank" title="Pagina UniBo">Alma Mater Studiorum - Università di Bologna</a> <br>
+							<a href="https://ficlit.unibo.it/it" target="_blank" title="Pagina del dipartimento FICLIT UniBo">Dipartimento FICLIT - UniBo</a> <br>
+							<a href="mailto:lorenza.gallo@studio.unibo.it">lorenza.gallo@studio.unibo.it</a></p>
+						</div>
+						<div class="col-md-4">
+							<h3>Licenza</h3>
+							<img alt="Creative Commons License" class="mb-3" src="https://licensebuttons.net/l/by-nc-nd/3.0/88x31.png"/>
+							<p>Quest'opera è distribuita con <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/deed.it" target="_blank" title="Licenze">Licenza Creative Commons Attribuzione - Non commerciale - Non opere derivate 3.0</a>.</p>
+						</div>	
+					</div>
+				</div>		
+			</div>	
+			<!--copyright-->
+			<div class="container-fluid background-copy">
+				<p class="mb-0 pb-1 pt-1 text-center">&copy; Copyright (c) 2021 by Lorenza Gallo - FICLIT - Università di Bologna</p>
 			</div>	
 		</footer>
 		
