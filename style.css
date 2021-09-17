@@ -35,11 +35,11 @@ h4 {
 	color:black;
 }
 
-.dropdown-menu a:link, a:visited {
+.dropdown-menu a:link, .dropdown-menu a:visited {
    background-color: none;
 }
 
-.dropdown-menu a:hover, a:active {
+.dropdown-menu a:hover, .dropdown-menu a:active {
 	background-color: rgb(201, 105, 79);
 }
 
@@ -177,10 +177,23 @@ footer {
 }
 
 .background-copy {
-	background-color: white;
+	background-color: rgb(95, 92, 93);
+	color: white;
 }
 
 .background-foot {
-	background-color: rgb(95, 92, 93);
-	color: white;
+	background-color: white;
+}
+
+
+.backgrount-foot a:link, .background-foot a:visited {
+	color: black;
+	text-decoration: none;
+	background-color: none;
+} 
+
+.backgrount-foot a:hover, .background-foot a:active {
+	color: black;
+	text-decoration: underline;
+	background-color: none;
 }
