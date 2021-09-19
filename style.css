@@ -67,10 +67,6 @@ a:hover, a:active {
 	margin-bottom:40px;
 }
 
-#introduzione, #lista-tappe {
-	margin-bottom: 40px;
-}
-
 .persona {
 	text-decoration: underline;
 }
@@ -89,6 +85,13 @@ a:hover, a:active {
 	height: 400px;
 }
 
+#nav-breadcrumb a:link, #nav-breadcrumb a:visited {
+	color: black;
+}
+
+#nav-breadcrumb a:hover, #nav-breadcrumb a:active {
+	color: rgb(201, 105, 79);
+}
 
 .card-item {
 	border-radius: 10px;
@@ -97,7 +100,6 @@ a:hover, a:active {
 
 .card-item-riga2 {
 	border-radius: 10px;
-	height: 600px;
 }
 
 .card-img-top {
@@ -135,13 +137,6 @@ a:hover, a:active {
 	left: 200px;
 }
 
-.carousel-item {
-	position: relative;
-}
-
-.link-carousel {
-
-}
 
 .top-left {
 	position: absolute;
